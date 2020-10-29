@@ -1,0 +1,26 @@
+{
+  "name": "rest_api_vid",
+  "version": "1.0.0",
+  "description": "quick rest API practice with node express mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoDB",
+    "API"
+  ],
+  "author": "ali killen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
